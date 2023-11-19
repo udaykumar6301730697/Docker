@@ -9,4 +9,4 @@ RUN cd/var/www/html&& unzip master.zip  && mv 2048-master/* . && rm -rf 2048-mas
 
 EXPOSE 80
 
-CMD["/user/.sbin/nginx","-c","/etc/nginx/nginx.conf"]
+CMD ["/user/.sbin/nginx","-c","/etc/nginx/nginx.conf"]
